@@ -1,0 +1,94 @@
+.textb1{
+    width: 50%;
+    
+  }
+
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+
+  button, input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+  }
+  .mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+  }
+
+  button, select {
+    text-transform: none;
+    -webkit-appearance: button;
+  }
+  .btn-block {
+      display: block;
+      width: 40%;
+  }
+  .btn-primary {
+      color: #fff;
+      background-color: #007bff;
+      border-color: #007bff;
+  }
+  .btn {
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; 
+      border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: .25rem;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  button, select {
+      text-transform: none;
+  }
+  button, input {
+      overflow: visible;
+  }
+  button, input, optgroup, select, textarea {
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+  }
+  button {
+      border-radius: 0;
+  }
+  *, ::after, ::before {
+      box-sizing: border-box;
+  }
+
+  td{
+    padding: 20px;
+    background-color: #dbdbdb;
+    border-radius: 10px;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .textb{
+    font-size: larger;
+    font-family: Georgia;
+    color: #007bff;
+    text-align: center;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  footer {
+    margin-top: auto;
+  }

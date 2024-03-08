@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8 ">
+    <title>Bookings</title>
+    <script> src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ; scr="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" </script>
+    <link rel="stylesheet" href="css\book.css"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="" >
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand">
+                        <img src="img/logo.png" height="28" alt="CoolBrand">
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="booking.html" class="nav-item nav-link">Bookings</a>
+                            <a href="#" class="nav-item nav-link">Shop</a>
+                            <a href="#" class="nav-item nav-link">Contact Us</a>
+                            <a href="#" class="nav-item nav-link">About Us</a>
+                        </div>
+                        <div class="navbar-nav ms-auto">
+                            <a href="#" class="nav-item nav-link">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+    <!--Card-->
+    <div class="card shadow mb-5 bg-white rounded">
+    
+        <!--Card-Body-->
+        <div class="card-body">
+    
+            <!--Card-Title-->
+            <p class="card-title text-center shadow mb-5 rounded">Book Us For Your Special Day</p>
+     
+  
+    
+        <hr>
+    
+            <p class="searchText"><strong>Select Your Occation</strong></p>
+    
+            <!--First Row-->
+            <div class="row mb-3 mt-3">
+    
+                <label class="radiobtn"><input type="radio" name="gender" value="male"> Wedding</label>
+                <label class="radiobtn"><input type="radio" name="gender" value="male"> Homecoming</label>
+                <label class="radiobtn"><input type="radio" name="gender" value="male"> Wedding and Homecoming</label>
+                <label class="radiobtn"><input type="radio" name="gender" value="male"> Other Event</label>
+    
+            </div>
+    
+    
+            <!--Second Row-->
+            <div class="row">
+    
+                <div class="col-sm-6">
+                    <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Venue 1</option>
+            <option value="1">Kaluthara</option>
+            <option value="2">Mathugama</option>
+            <option value="3">Colombo</option>
+            <option value="3">Panadura</option>
+            <option value="3">Horana</option>
+            <option value="3">Aluthgama</option>
+        </select>
+                </div>
+    
+                <div class="col-sm-6">
+                    <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Venue 2</option>
+            <option value="1">Kaluthara</option>
+            <option value="2">Mathugama</option>
+            <option value="3">Colombo</option>
+            <option value="3">Panadura</option>
+            <option value="3">Horana</option>
+            <option value="3">Aluthgama</option>
+        </select>
+                </div>
+    
+            </div>
+    
+    
+            <!--Third Row-->
+            <div class="row">
+    
+                <div class="col-sm-6">
+                    <input placeholder="&#xf073; Departing" type="text" id="date-picker-example" class="form-control datepicker mb-4" style="font-family:Arial, FontAwesome" >
+                </div>
+    
+                    <div class="col-sm-6">
+                        <input placeholder="&#xf073; Arriving" type="text" id="date-picker-example" class="form-control datepicker" style="font-family:Arial, FontAwesome" >
+                </div>
+    
+                    </div>
+    
+    
+                    <!--Fourth Row-->
+                    <div class="row mt-4">
+    
+                        <div class="col-sm-6">
+                            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Time</option>
+            <option value="1">Morning</option>
+            <option value="2">Evening</option>
+            <option value="3">Night</option>
+        </select>
+                        </div>
+    
+                        <div class="col-sm-6">
+                            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Time</option>
+            <option value="1">Morning</option>
+            <option value="2">Evening</option>
+            <option value="3">Night</option>
+        </select>
+                        </div>
+    
+                    </div>
+    
+    
+    
+    
+                    <!--Fifth Row-->
+                    <div class="row">
+    
+                        <div class="col-sm-4">
+                            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Dresses(1-5)</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+        </select>
+                        </div>
+    
+                        <div class="col-sm-4">
+                            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Croud(1-1000)</option>
+            <option value="1">1-50</option>
+            <option value="2">1-100</option>
+            <option value="3">1-500</option>
+            <option value="3">1-1000</option>
+        </select>
+                        </div>
+    
+                        <div class="col-sm-4">
+                            <select class="browser-default custom-select mb-4" id="select">
+            <option value="" disabled="" selected="">Group Members</option>
+       <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="3">4</option>
+            <option value="3">5</option>
+            <option value="3">6</option>
+            <option value="3">7</option>
+            <option value="3">8</option>
+            <option value="3">9</option>
+        </select>
+                        </div>
+    
+    
+    
+                    </div>
+    
+                    <a href="login.html" class="btn btn-primary float-right mt-5">Book Now</a>
+                </div>
+            </div>
+</body>
+</html>

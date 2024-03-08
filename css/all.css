@@ -1,0 +1,128 @@
+body {
+    background-color: #f3f3f3; /* Light gray background color */
+  }
+  
+  a {
+    color: #d7b66a; /* Gold color for links */
+  }
+  
+  a:hover {
+    color: #c0a34e; /* Darker gold color for hovered links */
+  }
+  
+  .navbar {
+    background-color: #ffffff; /* White color for navbar */
+    border-bottom: 1px solid #d7b66a; /* Gold border for navbar */
+  }
+  
+  .nav-link {
+    color: #333333; /* Dark gray color for navbar links */
+  }
+  
+  .nav-link:hover {
+    color: #d7b66a; /* Gold color for hovered navbar links */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #d7b66a; /* Gold color for carousel controls */
+  }
+  
+  
+  
+  .carousel-caption {
+    color: #333333; /* Dark gray color for carousel captions */
+  }
+  
+  .footer {
+    background-color: #ffffff; /* White color for footer */
+  }
+  
+  .footer a {
+    color: #333333; /* Dark gray color for footer links */
+  }
+  
+  .footer a:hover {
+    color: #d7b66a; /* Gold color for hovered footer links */
+  }
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    transition: transform .5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+  
+  .gallery-item:hover .gallery-caption {
+    opacity: 1;
+  }
+  
+  .gallery-caption h5 {
+    margin-top: 0;
+  }
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    display: block;
+    transition: transform .5s ease;
+  }
+  
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity .3s ease;
+  }
+  
+  .gallery-item:hover .gallery-caption {
+    opacity: 1;
+  }
+  
+  .gallery-caption h5 {
+    margin-top: 0;
+  }
+
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    background: transparent;
+  }
+
+  
